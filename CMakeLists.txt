@@ -65,7 +65,7 @@ endfunction()
 check_raylib()
 check_imgui()
 
-# Add raylib subdirectory (you'll need to include raylib's CMakeLists.txt)
+# Add raylib subdirectory
 # This assumes raylib-master contains a CMakeLists.txt
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/raylib-master")
     add_subdirectory(raylib-master)

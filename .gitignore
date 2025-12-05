@@ -372,3 +372,7 @@ Catalog
 imgui-master
 build
 Makefile
+
+# Clion files
+cmake-build-*
+.idea
